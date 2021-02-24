@@ -1,0 +1,29 @@
+{
+  "name": "uniapp-playground",
+  "version": "1.0.0",
+  "description": "",
+  "author": "zhoushx1018@gmail.com",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0 --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "vconsole": "^3.4.0",
+    "vue": "^2.6.12",
+    "vue-awesome-swiper": "^2.6.7",
+    "vue-i18n": "^8.20.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
